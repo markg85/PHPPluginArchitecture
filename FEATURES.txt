@@ -1,0 +1,33 @@
+Doel
+------------------
+Het doel van deze applicatie is om aan te tonen wat ik kan in PHP en hoe mijn kennis in PHP is. 
+Uiteraard had ik deze applicatie veel makkelijker en sneller kunnen maken als ik een bestaand
+framework (zoals Zend, Yii etc..) had gebruikt, maar dan had ik het zelf veel makkelijker gehad 
+om een complex systeem te kamen en had ik niet kunnen laten zien tot hoe ver mijn PHP kennis gaat.
+
+Om toch niet alles zelf te maken, maar ook aan te tonen dat ik bestaande "libraries" kan gebruiken
+is het template deel gedaan met Smarty. De code en view zijn dus volledig gescheiden. 
+
+Mijn oordeel: ik dacht een zeer complex systeem te maken met een plugin architectuur. Achteraf
+moet ik concluderen dat ook dit niet meer het uiterste van mijn PHP kennis vergt. Alles wat ik
+nu dus heb gemaakt is wel complex en leuk om te maken, maar ik kan nog een stapje moeilijker.
+
+Features
+------------------
+- Werkt vanaf PHP 5.3+ (closures/lambdas worden gebruikt)
+- Weergave (view) volledig gescheiden van code met zelfs een template structuur en thema opties.
+- Gebruik van Smarty 3.1.11 om te laten zien dat ik ook andere pakketten kan gebruiken en niet alles zelf maak.
+- Volledig OOP opgesteld (overerving, classes, polymorfisme in de plugin structuur en interfaces)
+- Duidelijk leesbare code
+- URL Routering waardoor mooie url's mogelijk zijn.
+  Voorbeeld: www.exmaple.com/mooie/url i.p.v. www.exmaple.com/index.php?page=mooie/url of www.exmaple.com/index.php?page=123
+- Plugin architectuur (laad plugins automatisch in als ze in de map "Plugins" staan)
+- Handig en effectief gebruik van lambdas
+
+Nadeel
+------------------
+MVC was oorspronkelijk wel het idee, maar daarvoor zou ik een bestaand framework moeten gebruiken.
+Dat wilde ik juist voorkomen om te kunnen demonstreren wat ik echt kan in PHP. MVC is niet zomaar 
+even te implementeren en moet zeker eerst goed over worden nadegacht. Voor nu zit hier geen MVC in 
+al lijkt het door Smarty wel een beetje MVC achtig. Indien echt noodzakelijk kan ik het project 
+verder uitbreiden door bijvoorbeeld Zend erin toe te passen.

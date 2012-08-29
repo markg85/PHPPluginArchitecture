@@ -1,0 +1,13 @@
+{foreach $aFileToParserPlugin as $aFileArray}
+	{if $aFileArray.metadata.usable_plugins > 0}
+		File: <a href="{$aFileArray@key}/">{$aFileArray@key}</a> can be parsed with: 
+		{foreach $aFileArray as $aFileData}
+			{if $aFileData@key != "metadata"}
+				{$aFileData@key} 
+			{/if}
+		{/foreach}
+	{else}
+		File: {$aFileArray@key}, there are no parsers registered that can handle this file.
+	{/if}
+	<br>
+{/foreach}

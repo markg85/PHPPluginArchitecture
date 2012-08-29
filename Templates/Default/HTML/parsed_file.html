@@ -1,0 +1,7 @@
+{if $error == ''}
+<pre>
+{$parsedData|@print_r}
+</pre>
+{else}
+	ERROR: {$error}
+{/if}

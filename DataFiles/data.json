@@ -1,0 +1,11 @@
+{
+   "database":{
+      "dbName":"everglades",
+      "remoteZDbName":"Eol",
+      "Longname":"Everglades Online",
+      "FullText":"",
+      "supportsScan":"",
+      "IllService":"",
+      "ServerName":"library"
+   }
+}
